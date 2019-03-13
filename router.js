@@ -7,4 +7,4 @@ app.get('/', (res, req) => {
   req.send('Test')
 })
 
-app.listen(port, () => console.log(`Pokemon app listening on port ${port}!`))
+app.listen(port)
