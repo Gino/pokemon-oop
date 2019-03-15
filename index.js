@@ -30,8 +30,8 @@ attack = (attacker, opponent, attack) => {
   console.log(attacker.name + " will now attack " + opponent.name + " with a " + attack.name + " attack")
   
   setTimeout(() => {
-    console.log(opponent.name + "'s health: " + healthAfterAttack)
-  }, 2000);
+    console.log("Ouch! " + opponent.name + "'s health: " + healthAfterAttack)
+  }, 3000);
 }
 
 init = () => {
