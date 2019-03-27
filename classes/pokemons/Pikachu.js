@@ -7,15 +7,15 @@ class Pikachu extends Pokemon {
   
   constructor() {
     super(
-      name = 'Pikachu',
-      hitpoints = 60,
-      health = 60,
-      energyType = 'Lightning',
-      attacks = [
+      'Pikachu',
+      60,
+      60,
+      'Lightning',
+      [
         new Attack('Electric Ring', 50),
         new Attack('Pika Punch', 20)
       ],
-      effects = [
+      [
         new Weakness('Fire', 1.5),
         new Resistance('Fighting', 20)
       ]

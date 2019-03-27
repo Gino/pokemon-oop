@@ -28,7 +28,7 @@ class Pokemon {
 
     let healthAfterAttack = opponent.health - damage
     
-    return opponent.name + "'s health after the attack: " + healthAfterAttack
+    return opponent.name + "'s health after the " + attack.name + " attack: " + healthAfterAttack
   }
 
 }
